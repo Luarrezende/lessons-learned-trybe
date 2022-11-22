@@ -5,20 +5,23 @@
 
 body {
     background-color: rgb(253, 251, 251);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #cabecalho {
     top: 0;
     position: absolute;
     position: fixed;
-    border-bottom: solid;
     width: 100%;
+    background-image: url(./branco.png);
 }
 
-#titulo {}
+#titulo {
+    padding: 12px 0 12px 90px;
+}
 
 #minha_foto {
-    margin-top: 50px;
+    margin-top: 80px;
     width: 190px;
     display: block;
     border-radius: 100%;
@@ -34,4 +37,20 @@ body {
 
 #rodape {
     background-color: antiquewhite;
+}
+
+.insta {
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    left: 930px;
+    top: 5px;
+}
+
+.tt {
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    left: 980px;
+    top: 5px;
 }
