@@ -37,7 +37,7 @@ body {
 }
 
 #rodape {
-    background-color: antiquewhite;
+    background-color: rgba(170, 170, 170, 0.966);
 }
 
 .insta {
@@ -89,12 +89,26 @@ body {
 
 .tabela {
     display: inline-block;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     margin-left: 10px;
 
 }
 
 .lado_direito {
     padding: 10px;
-    
+    width: 200px;
+}
+
+.lado_esquerdo {
+    padding: 10px;
+    width: 300px;  
+}
+
+.espacamento {
+    line-height: 15px;
+}
+
+.lado {
+    display: flex;
+    flex-direction: row;
 }
