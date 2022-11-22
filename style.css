@@ -78,3 +78,23 @@ body {
 .cor {
     color: rgb(28, 121, 20);
 }
+
+.padding {
+    padding: 10px;
+}
+
+.margin {
+    margin-bottom: 10px;
+}
+
+.tabela {
+    display: inline-block;
+    margin-bottom: 100px;
+    margin-left: 10px;
+
+}
+
+.lado_direito {
+    padding: 10px;
+    
+}
