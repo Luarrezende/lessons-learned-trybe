@@ -25,14 +25,15 @@ body {
     width: 190px;
     display: block;
     border-radius: 100%;
+    margin-left: 10px;
 }
 
 #licoes_aprendidas {
-    display: inline-block;
+    font-size: 15px;
 }
 
 #licoes_a_aprender {
-    display: inline-block;
+    font-size: 15px;
 }
 
 #rodape {
@@ -64,4 +65,16 @@ body {
     left: 20px;
     top: 5px;
     border-radius: 100%;
+}
+
+.block-in-line {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 22%;
+    padding-left: 50px;
+}
+
+.cor {
+    color: rgb(28, 121, 20);
 }
