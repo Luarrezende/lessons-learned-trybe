@@ -1,20 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
     top: 0;
+    position: absolute;
+    position: fixed;
+    border-bottom: solid;
+    width: 100%;
 }
 
 #titulo {}
 
 #minha_foto {
+    margin-top: 50px;
     width: 190px;
     display: block;
+    border-radius: 100%;
 }
 
-#licoes_aprendidas {}
+#licoes_aprendidas {
+    display: inline-block;
+}
 
-#licoes_a_aprender {}
+#licoes_a_aprender {
+    display: inline-block;
+}
 
-#rodape {}
+#rodape {
+    background-color: antiquewhite;
+}
